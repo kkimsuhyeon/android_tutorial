@@ -5,46 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
     android:padding="16dp"
-    >
+    tools:context=".MainActivity">
 
     <TextView
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="@color/custom_black"
-        android:text="@string/height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:text="@string/height"
+        android:textColor="@color/custom_black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/heightEditText"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        />
+        android:layout_marginTop="10dp"
+        android:inputType="number" />
+
     <TextView
-        android:textColor="@color/custom_black"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/weight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:textColor="@color/custom_black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/weightEditText"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        />
+        android:layout_marginTop="10dp"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/resultButton"
-        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="확인하기"/>
+        android:layout_marginTop="50dp"
+        android:text="확인하기" />
 </LinearLayout>
